@@ -71,7 +71,7 @@ if __name__ == '__main__':
     # Выбранное значение: 2020
     # Выбранное значение: 1980
 
-    adapter = AdapterTwo(new_target)  # Адаптер через композицию
+    adapter = AdapterTwo(new_target)  # Адаптер через агрегацию
     client_code(adapter)  # Используем клиентский код
 
     # Результат:
