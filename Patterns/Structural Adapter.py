@@ -14,6 +14,7 @@ class Target:
 
 def client_code(target: "Target") -> None:
     """ Клиентский код поддерживает все классы, использующие интерфейс Target
+    Нельзя изменять
     """
 
     print("Выбранное значение: " + target.get_value())
