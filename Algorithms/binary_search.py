@@ -9,9 +9,9 @@ def binary_search(generic_list: list, item: int):
     max_index = len(generic_list) - 1
 
     while min_index <= max_index:
-        index_middle = (min_index + max_index)
+        index_middle = (min_index + max_index) // 2
         item_middle = generic_list[index_middle]
-
+        
         if item_middle == item:
             return index_middle
         if item_middle > item:
