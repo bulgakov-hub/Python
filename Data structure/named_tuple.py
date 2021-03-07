@@ -52,3 +52,6 @@ for i in range(1000):
 print(f'Размер List[namedtuple] в памяти составляет:' 
     f'{size_byte(asizeof.asizeof(tuple_dicts))}'
 )
+
+# Размер List[Dict] в памяти составляет:7.3MB
+# Размер List[namedtuple] в памяти составляет:2.5MB
